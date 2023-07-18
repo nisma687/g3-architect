@@ -217,9 +217,43 @@ text-align:center;
 
 
 
+/* feature section */
+.feature-content
+{
+    text-align: center;
+}
+.card-feature
+{
+    padding:30px;
+    width: 586px;
+height: 171px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+.features-container .title
+{
+    border-left:5px solid #FF900E;
+    /* padding-left: 20px; */
+    padding-left: 20px;
+}
+.features-container
+{
+    display: flex;
+    margin-top:20px;
+    gap: 100px;
+}
+.features-container img
+{
+    margin-top: 20px;
+}
 
+.yearsbatch
+{
+    background-color: #FF900E; 
 
-
+}
 
 
 /* responsive */
