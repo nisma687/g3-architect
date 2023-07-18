@@ -1,3 +1,13 @@
+/* sans */
+
+*{
+    
+font-family: 'Work Sans', sans-serif;
+}
+
+
+
+
 .nav-bar
 {
     display: flex;
