@@ -195,9 +195,23 @@ border: 1px solid #FF900E;
 box-sizing: border-box;
 padding: 20px;
 align-items: center;
+text-align:center;
+ font-size: 1.8rem;
 }
 
-
+/* sponsors */
+.sponsors
+{
+    text-align: center;
+}
+.sponsor-images
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 
 
 
@@ -217,7 +231,7 @@ align-items: center;
         padding: 20px;
 
     }
-    nav,nav>ul
+    nav,nav>ul,.facts-card-container
     {
         flex-direction: column;
     }
@@ -232,7 +246,17 @@ align-items: center;
 
 
     }
+    .facts-card-container
+    {
+        gap:20px;
+    }
+    .facts-card-container
+    {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
+
 
 
 
